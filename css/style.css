@@ -164,6 +164,11 @@ body {
     color: #fff;
 }
 
+.footer-link-active {
+    color: #fbe371;
+    cursor: text; 
+}
+
 
 
 /*Banner
@@ -437,9 +442,9 @@ body {
 }
 
 .content-item-img {
-    background-image: url(../img/content-item-img-1.jpg);
     width: 620px;
     height: 145px;
+    background-size: cover;
 }
 
 .content-item-blog {
@@ -476,12 +481,14 @@ body {
     height: 16px;
     font-size: 15px;
     padding-left: 30px;
-    margin-top: 60px;
-    margin-right: 23px;
-    background: url(../img/views%20icon.png) no-repeat;
+    margin: 60px 23px 0 0;
     color: #475055;
     box-sizing: border-box;
  }
+
+.views-icon {
+    background: url(../img/views%20icon.png) no-repeat;
+}
 
 .share-icon {
     background: url(../img/share-icon.png) no-repeat;
